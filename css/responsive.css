@@ -3,8 +3,8 @@
 @media screen and (max-width: 576px) {
   nav,
   .team-work,
-  .card-container
-  {
+  .card-container,
+  .features-container {
     flex-direction: column;
   }
   nav h2 {
@@ -17,7 +17,7 @@
     margin: auto 10px;
   }
 
-/* ------------------------------------------- */
+  /* ------------------------------------------- */
 
   .team-work {
     margin: 20px auto;
@@ -26,7 +26,8 @@
     grid-template-columns: repeat(1, 1fr);
     margin: 40px auto;
   }
-  .team-description, .team-description p {
+  .team-description,
+  .team-description p {
     text-align: center;
     align-items: center;
   }
@@ -39,9 +40,29 @@
   .some-facts-text {
     text-align: center;
     margin: auto;
+    margin-bottom: -60px;
   }
   .some-facts-text h2 {
     margin-top: 100px;
+  }
+
+  /* -------------------------------------- */
+
+  .features-container {
+    margin: 150px 0px 0px;
+  }
+  .features-descriptions {
+    width: fit-content;
+  }
+  .features-image {
+    margin-top: 50px;
+    width: 80%;
+    margin: auto;
+  }
+  .huge-btn {
+    margin: auto;
+    text-align: center;
+    align-items: center;
   }
 }
 
@@ -49,7 +70,8 @@
 
 @media screen and (min-width: 576.1px) and (max-width: 770px) {
   nav,
-  .team-work {
+  .team-work,
+  .features-container {
     flex-direction: column;
   }
   nav h2 {
@@ -62,7 +84,7 @@
     margin: auto 10px;
   }
 
-/* --------------------------------------------- */
+  /* --------------------------------------------- */
 
   .team-work {
     margin: 20px auto;
@@ -70,7 +92,8 @@
   .team-image-container {
     margin: 40px auto;
   }
-  .team-description, .team-description p {
+  .team-description,
+  .team-description p {
     text-align: center;
     align-items: center;
   }
@@ -80,8 +103,31 @@
   .card-container {
     grid-template-columns: repeat(2, 1fr);
   }
+  .some-facts-text {
+    text-align: center;
+    margin: auto;
+    margin-bottom: -50px;
+  }
   .some-facts-text h2 {
     margin-top: 100px;
   }
-}
 
+  /* ------------------------------------- */
+
+  .features-container {
+    margin: 150px 0px 0px;
+  }
+  .features-descriptions {
+    width: fit-content;
+  }
+  .features-image {
+    margin-top: 50px;
+    width: 80%;
+    margin: auto;
+  }
+  .huge-btn {
+    margin: auto;
+    text-align: center;
+    align-items: center;
+  }
+}
