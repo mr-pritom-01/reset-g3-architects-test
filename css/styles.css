@@ -36,7 +36,6 @@
 
 .paragraph {
   color: var(--paragraph-color);
-  text-align: center;
   font-size: 1rem;
   font-weight: 400;
 }
@@ -48,6 +47,10 @@ a:hover {
 button:hover {
   cursor: pointer;
   box-shadow: 2px 2px 2px gray;
+}
+.card:hover {
+  cursor: pointer;
+  box-shadow: 2px 2px 5px gray;
 }
 
 /* ------------------------------------------- */
@@ -130,29 +133,78 @@ nav a {
   margin-right: 50px;
 }
 .team-image-container img {
-    width: 100%;
+  width: 100%;
 }
 
 .team-description {
   max-width: 540px;
   text-align: left;
 }
-.team-description p {
-    text-align: left;
-    margin: 30px auto;
-}
 .team-description h2 {
   font-size: 3rem;
   font-weight: 700;
 }
+.quick-list {
+  color: var(--paragraph-color);
+  font-weight: 500;
+}
+.features {
+  color: var(--primary-color);
+  font-weight: 700;
+}
+.team-description p {
+  margin: 30px auto;
+}
 /* team-work section ENDS  */
-
-
 
 /* The features section STARTS  */
 
 /* The features section ENDS  */
 
+/* Some Facts section STARTS  */
 
+.some-facts-container {
+  margin: auto;
+}
+.some-facts-text {
+  max-width: 545px;
+  margin-left: 180px;
+  margin-right: 180px;
+}
+.some-facts-text h2 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.some-facts-text p {
+  margin: 30px auto 100px;
+}
 
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 180px;
+  margin-right: 180px;
+}
+.card {
+  border-radius: 8px;
+  border: 2px solid var(--primary-color);
+  padding: 45px;
+  text-align: center;
+  margin: auto 20px;
+  margin-bottom: 20px;
+  max-width: 200px;
+}
+.card img {
+  width: 45%;
+}
+.card h2 {
+  color: var(--nav-a-color);
+  font-size: 3rem;
+  font-weight: 600;
+  padding: 15px 0;
+}
+.card p {
+  font-size: 1rem;
+}
 
+/* Some Facts section ENDS  */
