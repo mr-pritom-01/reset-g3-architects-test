@@ -240,3 +240,16 @@ nav a {
   align-items: center;
   margin-left: 40px
 }
+
+
+footer {
+  background-color: var(--background-color);
+}
+.footer-text {
+  color: rgba(0, 0, 0, 0.73);
+  text-align: center;
+  margin: auto;
+  padding: 25px 0px;
+  line-height: 35px;
+  font-weight: 500;
+}
