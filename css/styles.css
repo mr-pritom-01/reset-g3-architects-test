@@ -43,10 +43,16 @@
 
 a:hover {
   cursor: pointer;
-  box-shadow: 2px 2px 2px;
+  box-shadow: 2px 2px 2px gray;
+}
+button:hover {
+  cursor: pointer;
+  box-shadow: 2px 2px 2px gray;
 }
 
-/** The header section  **/
+/* ------------------------------------------- */
+
+/** The header section STARTS  **/
 
 /* banner styles  */
 
@@ -74,6 +80,7 @@ nav a {
   padding: 5px 10px;
   font-size: 1.1rem;
   color: var(--nav-a-color);
+  border-radius: 8px;
 }
 
 /* banner description  */
@@ -92,13 +99,60 @@ nav a {
 }
 
 .banner-description p {
-    margin: 30px auto;
+  margin: 30px auto;
 }
 
 .banner-image {
-    margin: 50px 200px;
+  margin: 50px 200px;
 }
 .banner-image img {
-    width: 100%;
-    margin-bottom: 50px;
+  width: 100%;
+  margin-bottom: 50px;
 }
+/** The header section END **/
+/* ----------------------------------------- */
+/** The main secton STARTS  **/
+
+/* team-work section starts  */
+
+.team-work {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto 250px;
+  margin-bottom: 150px;
+}
+
+.team-image-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  margin-right: 50px;
+}
+.team-image-container img {
+    width: 100%;
+}
+
+.team-description {
+  max-width: 540px;
+  text-align: left;
+}
+.team-description p {
+    text-align: left;
+    margin: 30px auto;
+}
+.team-description h2 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+/* team-work section ENDS  */
+
+
+
+/* The features section STARTS  */
+
+/* The features section ENDS  */
+
+
+
+

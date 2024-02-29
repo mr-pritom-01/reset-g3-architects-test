@@ -1,28 +1,62 @@
 /* media queires for mobile screens  */
 
-@media screen and (max-width:576px) {
-    nav {
-        flex-direction: column;
-    }
-    nav h2 {
-        margin-bottom: 25px;
-    }
-    .banner-image {
-        margin: 30px auto;
-    }
-}
+@media screen and (max-width: 576px) {
+  nav,
+  .team-work {
+    flex-direction: column;
+  }
+  nav h2 {
+    margin-bottom: 25px;
+  }
+  .banner-image {
+    margin: 30px auto;
+  }
+  .banner-description {
+    margin: auto 10px;
+  }
 
+/* ------------------------------------------- */
+
+  .team-work {
+    margin: 20px auto;
+  }
+  .team-image-container {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 40px auto;
+  }
+  .team-description {
+    text-align: center;
+    align-items: center;
+  }
+}
 
 /* media quries for tablet screen  */
 
-@media screen and (min-width:576.1px) and (max-width:770px) {
-    nav {
-        flex-direction: column;
-    }
-    nav h2 {
-        margin-bottom: 25px;
-    }
-    .banner-image {
-        margin: 30px auto;
-    }
+@media screen and (min-width: 576.1px) and (max-width: 770px) {
+  nav,
+  .team-work {
+    flex-direction: column;
+  }
+  nav h2 {
+    margin-bottom: 25px;
+  }
+  .banner-image {
+    margin: 30px auto;
+  }
+  .banner-description {
+    margin: auto 10px;
+  }
+
+/* --------------------------------------------- */
+
+  .team-work {
+    margin: 20px auto;
+  }
+  .team-image-container {
+    margin: 40px auto;
+  }
+  .team-description {
+    text-align: center;
+    align-items: center;
+  }
 }
